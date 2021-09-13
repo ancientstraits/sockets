@@ -1,0 +1,32 @@
+[
+ {
+  "directory": "/workspace/sockets",
+  "arguments": [
+   "cc",
+   "-o",
+   "obj/main.o",
+   "-c",
+   "src/main.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Wall"
+  ],
+  "file": "src/main.c"
+ },
+ {
+  "directory": "/workspace/sockets",
+  "arguments": [
+   "cc",
+   "-o",
+   "obj/util.o",
+   "-c",
+   "src/util.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Wall"
+  ],
+  "file": "src/util.c"
+ }
+]
