@@ -9,7 +9,7 @@ all: $(EXEC)
 obj:
 	mkdir obj
 
-obj/%.o: src/%.c obj $(DEPS)
+obj/%.o: src/%.c $(DEPS) | obj
 	$(CC) -o $@ -c $< $(CFLAGS)
 
 $(EXEC): $(OBJS)
